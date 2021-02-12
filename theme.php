@@ -95,3 +95,22 @@ footer {
     <?= $Wcms->menu() ?>
   </ul>
 </amp-sidebar>
+<div class="container">
+		<div class="col-xs-12 col-sm-8">
+			<div class="whiteBackground grayFont padding20 rounded5">
+				<?=wCMS::page('content')?>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4">
+			<div class="visible-xs spacer20"></div>
+			<div class="goldBackground padding20 rounded5">
+				<?=wCMS::block('subside')?>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid">
+		<div class="padding20 text-right">
+			<?=wCMS::footer()?>
+		</div>
+	</footer>
