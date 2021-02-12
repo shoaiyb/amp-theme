@@ -20,8 +20,10 @@
 	<meta name="twitter:description" content="<?= $Wcms->page('description') ?>" />
 
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<?= $Wcms->css()?>
-
-	<link rel="stylesheet" href="<?= $Wcms->asset('css/style.css')?>">
+	<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- Import other AMP Extensions here -->
+    <style amp-custom>
+    /* Add your styles here */
+    </style>
 </head>
