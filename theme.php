@@ -114,3 +114,6 @@ footer {
 			<?=wCMS::footer()?>
 		</div>
 	</footer>
+<?=wCMS::js()?>
+</body>
+</html>
