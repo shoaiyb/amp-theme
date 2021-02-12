@@ -20,6 +20,7 @@
 	<meta name="twitter:description" content="<?= $Wcms->page('description') ?>" />
 
 
+	<link rel="canonical" href=".">
 	<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <!-- Import other AMP Extensions here -->
