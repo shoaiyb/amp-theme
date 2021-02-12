@@ -33,3 +33,8 @@
 <body>
 	<?= $Wcms->settings() ?>
 	<?= $Wcms->alerts() ?>
+	
+      <header class="headerbar">
+       <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">&#9776;</div>
+       <div class="site-name"><?= $Wcms->get('config','siteTitle') ?></div>
+      </header>
