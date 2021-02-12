@@ -38,3 +38,9 @@
        <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">&#9776;</div>
        <div class="site-name"><?= $Wcms->get('config','siteTitle') ?></div>
       </header>
+<amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+       <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+  <ul class="sidebar">
+    <?= $Wcms->menu() ?>
+  </ul>
+</amp-sidebar>
